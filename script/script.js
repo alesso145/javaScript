@@ -38,3 +38,72 @@ function mostrarNombre(){
 }
 mostrarNombre();
 document.writeln("<br> nombre" + nombre)
+
+//Funcion que recibr parametros
+function sumar(a,b){
+    let resultado;
+    resultado=a+b;
+    return resultado
+}
+
+//llamamos a la funcion sumar
+
+var suma=sumar(40,50);
+document.writeln("<br> la suma es: " +suma);
+/* Operadores aritmeticos:
++: suma
+-: resta
+*:multiplicacion
+/: division
+%: modulo(residuo de una division)
+++: incremento
+--: decremento
+
+Operadores de asignacion:
+Estos operadores se utilizan para asignar valores a las variables.
+=: Asignacion Simple
++= : Asignacion con suma (y += b es equivalente a y=y+b)
+-= : asignacion con resta(y -= b  es equivalente a y=y-b)
+=== : Igualdad Estricta (compara valor y tipo) 6=== "6"
+
+Operadores de comparacion: se utilizan para comparar valores y  devuelven un valor booleano (true or false)
+
+== : igualdad
+!= : desigualdad
+>: Mayor que
+<: Menor que
+>= Mayor o igual que
+<= Menor o igual que
+
+Operadores logicos:
+Se utilizan para combinar expresiones booleanas
+
+&& : AND Devuelve true si ambas condiciones son verdaderas
+|| : OR devuelve true si almenos una de las condiciones es verdadera
+! : NOT Invierte el valor de una condicion
+/*
+
+
+
+//la condicional nos permite ejecutar un bloque de codigo mientras cierta condicion se cumpla
+//Sintaxis:
+
+/*if(condicion){
+    bloque de codigo a ejecutar si la condicion es verdadera
+}else{ 
+    Bloque de codigo a ejecutar si la condicion es falsa
+           }*/
+
+
+//Crear un script donde se verificque la edad mayor entre dos personas
+
+var EdadJuan=30;
+var EdadAlessandro=21;
+if(EdadJuan>EdadAlessandro){
+document.writeln("<br> Juan es Mayor que Alessandro")
+
+} else{
+    document.writeln("<br> Alessandro Es mayor que Juan")
+}
+
+
